@@ -130,11 +130,11 @@
         default_osx_layer {
             label = " OSX";
             bindings = <
-&kp ESC    &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                           &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp BSLH
-&kp TAB    &tdx_Q     &kp W      &kp E      &kp R      &kp T                            &kp Y      &kp U      &kp I      &kp O      &kp P      &kp GRAV
-&kp CAPS   &kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B    &mo QC_N    &kp LCTRL   &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
-                            &kp LALT   &kp LGUI   &lt 1 MINUS   &lt 2 EQUAL &lt 2 RET &lt 1 SPACE  &kp BSPC   &mo QC_F
+&kp GRAV   &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                        &kp N6       &kp N7     &kp N8     &kp N9     &kp N0     &kp MINUS
+&lt 2 TAB  &kp Q      &kp W      &kp E      &kp R      &kp T                         &kp Y        &kp U      &kp I      &kp O      &kp P      &kp EQUAL
+&lt 1 CAPS &kp A      &kp S      &kp D      &kp F      &kp G                         &kp H        &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
+&kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B    &mo QC_N   &mo QC_F  &kp N        &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
+                                 &kp ESC    &kp LALT   &kp LGUI &kp LCTRL  &lt 2 RET &lt 1 SPACE  &kp BSPC   &kp BSLH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -182,13 +182,13 @@
         default_win_layer {
             label = " Win 11";
             bindings = <
-&kp ESC    &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                           &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp BSLH
-&kp TAB    &tdw_Q     &kp W      &kp E      &kp R      &kp T                            &kp Y      &kp U      &kp I      &kp O      &kp P      &kp GRAV
-&kp CAPS   &kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B    &mo QC_N    &kp LGUI    &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
-                              &kp LALT &kp LCTRL  &lt 5 MINUS   &lt 6 EQUAL &lt 6 RET   &lt 5 SPACE  &kp BSPC &mo QC_F
+&kp GRAV   &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                           &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp MINUS
+&lt 6 TAB  &kp Q      &kp W      &kp E      &kp R      &kp T                            &kp Y      &kp U      &kp I      &kp O      &kp P      &kp EQUAL
+&lt 5 CAPS &kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
+&kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B    &mo QC_N   &mo QC_F     &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
+                                 &kp ESC    &kp LALT   &kp LGUI &kp LCTRL  &lt 6 RET   &lt 5 SPACE  &kp BSPC  &kp BSLH
             >;
-
+     
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
