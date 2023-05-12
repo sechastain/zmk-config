@@ -39,8 +39,9 @@ Build command with nice!view:
     west build -d build/left -p -b nice_nano_v2 -- -DSHIELD="leeloo_left nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/[alias]/leeloo/config"
     west build -d build/right -p -b nice_nano_v2 -- -DSHIELD="leeloo_right nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/[alias]/leeloo/config"
 
-    west build -d build/left -p -b nice_nano_v2 -- -DSHIELD="leeloo_rev2_left nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/spencer/leeloo_v2/config"
-    west build -d build/right -p -b nice_nano_v2 -- -DSHIELD="leeloo_rev2_right nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/spencer/leeloo_v2/config"
+    # spencer config
+    west build -d build/left -p -b nice_nano_v2 -- -DSHIELD="leeloo_rev2_left nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/leeloo_v2/config"
+    west build -d build/right -p -b nice_nano_v2 -- -DSHIELD="leeloo_rev2_right nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/leeloo_v2/config"
 
     For Corne Keyboards:
     // Overwrite the display cs pin

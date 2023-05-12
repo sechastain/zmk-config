@@ -134,7 +134,7 @@
 &lt 2 TAB  &kp Q      &kp W      &kp E      &kp R      &kp T                         &kp Y        &kp U      &kp I      &kp O      &kp P      &kp EQUAL
 &lt 1 CAPS &kp A      &kp S      &kp D      &kp F      &kp G                         &kp H        &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
 &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B    &mo QC_N   &mo QC_F  &kp N        &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
-                                 &kp ESC    &kp LALT   &kp LGUI &kp LCTRL  &lt 2 RET &lt 1 SPACE  &kp BSPC   &kp BSLH
+                                 &kp LALT   &kp LGUI &kp LCTRL  &kp ESC    &lt 2 RET &lt 1 SPACE  &kp BSPC   &kp BSLH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -186,7 +186,7 @@
 &lt 6 TAB  &kp Q      &kp W      &kp E      &kp R      &kp T                            &kp Y      &kp U      &kp I      &kp O      &kp P      &kp EQUAL
 &lt 5 CAPS &kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SQT
 &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B    &mo QC_N   &mo QC_F     &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RSHFT
-                                 &kp ESC    &kp LALT   &kp LGUI &kp LCTRL  &lt 6 RET   &lt 5 SPACE  &kp BSPC  &kp BSLH
+                                 &kp LALT   &kp LGUI &kp LCTRL  &kp ESC    &lt 6 RET   &lt 5 SPACE  &kp BSPC  &kp BSLH
             >;
      
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
