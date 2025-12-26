@@ -26,6 +26,8 @@ Customization: [Customizing ZMK](https://zmk.dev/docs/customization)
 Development Environment: [Basic Setup](https://zmk.dev/docs/development/setup)
 
 Note: With Zephyr 4.1, the board name is `nice_nano` (formerly `nice_nano_v2`).
+Note: On macOS, if Finder fails to copy UF2 files (error -36), use `dd` instead, e.g.
+`dd if=path/to/zmk.uf2 of=/Volumes/NICENANO/zmk.uf2 bs=512 conv=fsync`.
 
 Build command for the default keymap of Leeloo:
 
