@@ -25,23 +25,25 @@ Installation: [Installing ZMK](https://zmk.dev/docs/user-setup)
 Customization: [Customizing ZMK](https://zmk.dev/docs/customization)
 Development Environment: [Basic Setup](https://zmk.dev/docs/development/setup)
 
+Note: With Zephyr 4.1, the board name is `nice_nano` (formerly `nice_nano_v2`).
+
 Build command for the default keymap of Leeloo:
 
-    west build -d build/left -p -b nice_nano_v2 -- -DSHIELD=leeloo_left
-    west build -d build/right -p -b nice_nano_v2 -- -DSHIELD=leeloo_right
+    west build -d build/left -p -b nice_nano -- -DSHIELD=leeloo_left
+    west build -d build/right -p -b nice_nano -- -DSHIELD=leeloo_right
 
 Build command for your custom keymap of Leeloo:
 
-    west build -d build/right -p -b nice_nano_v2 -- -DSHIELD=leeloo_right -DZMK_CONFIG="C:/zmk/[alias]/leeloo/config"
-    west build -d build/left -p -b nice_nano_v2 -- -DSHIELD=leeloo_left -DZMK_CONFIG="C:/zmk/[alias]/leeloo/config"
+    west build -d build/right -p -b nice_nano -- -DSHIELD=leeloo_right -DZMK_CONFIG="C:/zmk/[alias]/leeloo/config"
+    west build -d build/left -p -b nice_nano -- -DSHIELD=leeloo_left -DZMK_CONFIG="C:/zmk/[alias]/leeloo/config"
 
 Build command with nice!view:
-    west build -d build/left -p -b nice_nano_v2 -- -DSHIELD="leeloo_left nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/[alias]/leeloo/config"
-    west build -d build/right -p -b nice_nano_v2 -- -DSHIELD="leeloo_right nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/[alias]/leeloo/config"
+    west build -d build/left -p -b nice_nano -- -DSHIELD="leeloo_left nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/[alias]/leeloo/config"
+    west build -d build/right -p -b nice_nano -- -DSHIELD="leeloo_right nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/[alias]/leeloo/config"
 
     # spencer config
-    west build -d build/left -p -b nice_nano_v2 -- -DSHIELD="leeloo_rev2_left nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/leeloo_v2/config"
-    west build -d build/right -p -b nice_nano_v2 -- -DSHIELD="leeloo_rev2_right nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/leeloo_v2/config"
+    west build -d build/left -p -b nice_nano -- -DSHIELD="leeloo_rev2_left nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/leeloo_v2/config"
+    west build -d build/right -p -b nice_nano -- -DSHIELD="leeloo_rev2_right nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/leeloo_v2/config"
 
     For Corne Keyboards:
     // Overwrite the display cs pin
@@ -52,8 +54,8 @@ Build command with nice!view:
     NOTE: 4 equates to D4, or P0.22 on the nice!nano MCU.
 
     Compile with:
-    west build -d build/left -p -b nice_nano_v2 -- -DSHIELD="leeloo_left nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/[alias]/leeloo/config"
-    west build -d build/right -p -b nice_nano_v2 -- -DSHIELD="leeloo_right nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/[alias]/leeloo/config"
+    west build -d build/left -p -b nice_nano -- -DSHIELD="leeloo_left nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/[alias]/leeloo/config"
+    west build -d build/right -p -b nice_nano -- -DSHIELD="leeloo_right nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/[alias]/leeloo/config"
 
 
     For Corne Keyboards:
@@ -65,8 +67,8 @@ Build command with nice!view:
     NOTE: 0 equates to D0, or P0.08 on the nice!nano MCU.
 
     Compile with:
-    west build -d build/left -p -b nice_nano_v2 -- -DSHIELD="corne_left nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/[alias]/corne/config"
-    west build -d build/right -p -b nice_nano_v2 -- -DSHIELD="corne_right nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/[alias]/corne/config"
+    west build -d build/left -p -b nice_nano -- -DSHIELD="corne_left nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/[alias]/corne/config"
+    west build -d build/right -p -b nice_nano -- -DSHIELD="corne_right nice_view_adapter nice_view" -DZMK_CONFIG="/workspaces/zmk-config/[alias]/corne/config"
 
 
 # Support
